@@ -12,6 +12,7 @@
 #import "DDTTYLogger.h"
 #import "LogglyFormatter.h"
 #import "LogglyLogger.h"
+#import "DDNSLoggerLogger.h"
 
 static NSString * const kLogglyKey = @"d7405077-3555-46e3-887d-815f6f0a156e";
 
@@ -27,6 +28,8 @@ static NSString * const kLogglyKey = @"d7405077-3555-46e3-887d-815f6f0a156e";
     logglyLogger.logglyKey = kLogglyKey;
     logglyLogger.saveInterval = 15;
     [DDLog addLogger:logglyLogger];
+
+    [DDLog addLogger:[DDNSLoggerLogger sharedInstance]];
 }
 
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
