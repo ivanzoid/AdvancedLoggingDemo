@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBFE29A1A94F8090092D63C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2991A94F8090092D63C /* main.m */; };
+		2CBFE29D1A94F8090092D63C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE29C1A94F8090092D63C /* AppDelegate.m */; };
+		2CBFE2A01A94F8090092D63C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE29F1A94F8090092D63C /* MasterViewController.m */; };
+		2CBFE2A31A94F8090092D63C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2A21A94F8090092D63C /* DetailViewController.m */; };
+		2CBFE2A61A94F8090092D63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2A41A94F8090092D63C /* Main.storyboard */; };
+		2CBFE2A81A94F8090092D63C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2A71A94F8090092D63C /* Images.xcassets */; };
+		2CBFE2AB1A94F8090092D63C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2A91A94F8090092D63C /* LaunchScreen.xib */; };
+		2CBFE2B71A94F8090092D63C /* DemoLumberjackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2B61A94F8090092D63C /* DemoLumberjackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CBFE2B11A94F8090092D63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBFE28C1A94F8090092D63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBFE2931A94F8090092D63C;
+			remoteInfo = DemoLumberjack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CBFE2941A94F8090092D63C /* DemoLumberjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLumberjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBFE2981A94F8090092D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBFE2991A94F8090092D63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CBFE29B1A94F8090092D63C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CBFE29C1A94F8090092D63C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CBFE29E1A94F8090092D63C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2CBFE29F1A94F8090092D63C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2CBFE2A11A94F8090092D63C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2CBFE2A21A94F8090092D63C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2CBFE2A51A94F8090092D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CBFE2A71A94F8090092D63C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CBFE2AA1A94F8090092D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CBFE2B01A94F8090092D63C /* DemoLumberjackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLumberjackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBFE2B51A94F8090092D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBFE2B61A94F8090092D63C /* DemoLumberjackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoLumberjackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBFE2911A94F8090092D63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBFE2AD1A94F8090092D63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBFE28B1A94F8090092D63C = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2961A94F8090092D63C /* DemoLumberjack */,
+				2CBFE2B31A94F8090092D63C /* DemoLumberjackTests */,
+				2CBFE2951A94F8090092D63C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CBFE2951A94F8090092D63C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2941A94F8090092D63C /* DemoLumberjack.app */,
+				2CBFE2B01A94F8090092D63C /* DemoLumberjackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CBFE2961A94F8090092D63C /* DemoLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE29B1A94F8090092D63C /* AppDelegate.h */,
+				2CBFE29C1A94F8090092D63C /* AppDelegate.m */,
+				2CBFE29E1A94F8090092D63C /* MasterViewController.h */,
+				2CBFE29F1A94F8090092D63C /* MasterViewController.m */,
+				2CBFE2A11A94F8090092D63C /* DetailViewController.h */,
+				2CBFE2A21A94F8090092D63C /* DetailViewController.m */,
+				2CBFE2A41A94F8090092D63C /* Main.storyboard */,
+				2CBFE2A71A94F8090092D63C /* Images.xcassets */,
+				2CBFE2A91A94F8090092D63C /* LaunchScreen.xib */,
+				2CBFE2971A94F8090092D63C /* Supporting Files */,
+			);
+			path = DemoLumberjack;
+			sourceTree = "<group>";
+		};
+		2CBFE2971A94F8090092D63C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2981A94F8090092D63C /* Info.plist */,
+				2CBFE2991A94F8090092D63C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CBFE2B31A94F8090092D63C /* DemoLumberjackTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2B61A94F8090092D63C /* DemoLumberjackTests.m */,
+				2CBFE2B41A94F8090092D63C /* Supporting Files */,
+			);
+			path = DemoLumberjackTests;
+			sourceTree = "<group>";
+		};
+		2CBFE2B41A94F8090092D63C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2B51A94F8090092D63C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CBFE2931A94F8090092D63C /* DemoLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBFE2BA1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjack" */;
+			buildPhases = (
+				2CBFE2901A94F8090092D63C /* Sources */,
+				2CBFE2911A94F8090092D63C /* Frameworks */,
+				2CBFE2921A94F8090092D63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoLumberjack;
+			productName = DemoLumberjack;
+			productReference = 2CBFE2941A94F8090092D63C /* DemoLumberjack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CBFE2AF1A94F8090092D63C /* DemoLumberjackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjackTests" */;
+			buildPhases = (
+				2CBFE2AC1A94F8090092D63C /* Sources */,
+				2CBFE2AD1A94F8090092D63C /* Frameworks */,
+				2CBFE2AE1A94F8090092D63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBFE2B21A94F8090092D63C /* PBXTargetDependency */,
+			);
+			name = DemoLumberjackTests;
+			productName = DemoLumberjackTests;
+			productReference = 2CBFE2B01A94F8090092D63C /* DemoLumberjackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBFE28C1A94F8090092D63C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ivan;
+				TargetAttributes = {
+					2CBFE2931A94F8090092D63C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2CBFE2AF1A94F8090092D63C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2CBFE2931A94F8090092D63C;
+					};
+				};
+			};
+			buildConfigurationList = 2CBFE28F1A94F8090092D63C /* Build configuration list for PBXProject "DemoLumberjack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CBFE28B1A94F8090092D63C;
+			productRefGroup = 2CBFE2951A94F8090092D63C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CBFE2931A94F8090092D63C /* DemoLumberjack */,
+				2CBFE2AF1A94F8090092D63C /* DemoLumberjackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CBFE2921A94F8090092D63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBFE2A61A94F8090092D63C /* Main.storyboard in Resources */,
+				2CBFE2AB1A94F8090092D63C /* LaunchScreen.xib in Resources */,
+				2CBFE2A81A94F8090092D63C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBFE2AE1A94F8090092D63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CBFE2901A94F8090092D63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBFE29D1A94F8090092D63C /* AppDelegate.m in Sources */,
+				2CBFE2A01A94F8090092D63C /* MasterViewController.m in Sources */,
+				2CBFE29A1A94F8090092D63C /* main.m in Sources */,
+				2CBFE2A31A94F8090092D63C /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBFE2AC1A94F8090092D63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBFE2B71A94F8090092D63C /* DemoLumberjackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CBFE2B21A94F8090092D63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBFE2931A94F8090092D63C /* DemoLumberjack */;
+			targetProxy = 2CBFE2B11A94F8090092D63C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CBFE2A41A94F8090092D63C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBFE2A51A94F8090092D63C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CBFE2A91A94F8090092D63C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBFE2AA1A94F8090092D63C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CBFE2B81A94F8090092D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CBFE2B91A94F8090092D63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CBFE2BB1A94F8090092D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoLumberjack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CBFE2BC1A94F8090092D63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoLumberjack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CBFE2BE1A94F8090092D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoLumberjackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumberjack.app/DemoLumberjack";
+			};
+			name = Debug;
+		};
+		2CBFE2BF1A94F8090092D63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoLumberjackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumberjack.app/DemoLumberjack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBFE28F1A94F8090092D63C /* Build configuration list for PBXProject "DemoLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBFE2B81A94F8090092D63C /* Debug */,
+				2CBFE2B91A94F8090092D63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBFE2BA1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBFE2BB1A94F8090092D63C /* Debug */,
+				2CBFE2BC1A94F8090092D63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBFE2BE1A94F8090092D63C /* Debug */,
+				2CBFE2BF1A94F8090092D63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBFE28C1A94F8090092D63C /* Project object */;
+}
