@@ -22,16 +22,6 @@
 		AFB6583490958A37310C7B5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7BF215086845993D286D57 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2CBFE2B11A94F8090092D63C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2CBFE28C1A94F8090092D63C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CBFE2931A94F8090092D63C;
-			remoteInfo = DemoLumberjack;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2CBFE2941A94F8090092D63C /* AdvancedLoggingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLoggingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBFE2981A94F8090092D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +35,6 @@
 		2CBFE2A51A94F8090092D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CBFE2A71A94F8090092D63C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CBFE2AA1A94F8090092D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2CBFE2B01A94F8090092D63C /* AdvancedLoggingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLoggingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBFE2C01A9501EC0092D63C /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		2CBFE2C61A9531C60092D63C /* ZZLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLogFormatter.h; sourceTree = "<group>"; };
 		2CBFE2C71A9531C60092D63C /* ZZLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLogFormatter.m; sourceTree = "<group>"; };
@@ -69,13 +58,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB6583490958A37310C7B5C /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CBFE2AD1A94F8090092D63C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				2CBFE2941A94F8090092D63C /* AdvancedLoggingDemo.app */,
-				2CBFE2B01A94F8090092D63C /* AdvancedLoggingDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,24 +208,6 @@
 			productReference = 2CBFE2941A94F8090092D63C /* AdvancedLoggingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2CBFE2AF1A94F8090092D63C /* AdvancedLoggingDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "AdvancedLoggingDemoTests" */;
-			buildPhases = (
-				2CBFE2AC1A94F8090092D63C /* Sources */,
-				2CBFE2AD1A94F8090092D63C /* Frameworks */,
-				2CBFE2AE1A94F8090092D63C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2CBFE2B21A94F8090092D63C /* PBXTargetDependency */,
-			);
-			name = AdvancedLoggingDemoTests;
-			productName = DemoLumberjackTests;
-			productReference = 2CBFE2B01A94F8090092D63C /* AdvancedLoggingDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,10 +219,6 @@
 				TargetAttributes = {
 					2CBFE2931A94F8090092D63C = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					2CBFE2AF1A94F8090092D63C = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 2CBFE2931A94F8090092D63C;
 					};
 				};
 			};
@@ -277,7 +236,6 @@
 			projectRoot = "";
 			targets = (
 				2CBFE2931A94F8090092D63C /* AdvancedLoggingDemo */,
-				2CBFE2AF1A94F8090092D63C /* AdvancedLoggingDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,13 +250,6 @@
 				2CBFE2AB1A94F8090092D63C /* LaunchScreen.xib in Resources */,
 				2CBFE2CF1A9531C60092D63C /* LoggingCollections.m4 in Resources */,
 				2CBFE2A81A94F8090092D63C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CBFE2AE1A94F8090092D63C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,22 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CBFE2AC1A94F8090092D63C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2CBFE2B21A94F8090092D63C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CBFE2931A94F8090092D63C /* AdvancedLoggingDemo */;
-			targetProxy = 2CBFE2B11A94F8090092D63C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2CBFE2A41A94F8090092D63C /* Main.storyboard */ = {
@@ -509,40 +445,6 @@
 			};
 			name = Release;
 		};
-		2CBFE2BE1A94F8090092D63C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DemoLumberjackTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = AdvancedLoggingDemoTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumberjack.app/DemoLumberjack";
-			};
-			name = Debug;
-		};
-		2CBFE2BF1A94F8090092D63C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DemoLumberjackTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = AdvancedLoggingDemoTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumberjack.app/DemoLumberjack";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,15 +462,6 @@
 			buildConfigurations = (
 				2CBFE2BB1A94F8090092D63C /* Debug */,
 				2CBFE2BC1A94F8090092D63C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "AdvancedLoggingDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2CBFE2BE1A94F8090092D63C /* Debug */,
-				2CBFE2BF1A94F8090092D63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
