@@ -14,7 +14,11 @@
 		2CBFE2A61A94F8090092D63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2A41A94F8090092D63C /* Main.storyboard */; };
 		2CBFE2A81A94F8090092D63C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2A71A94F8090092D63C /* Images.xcassets */; };
 		2CBFE2AB1A94F8090092D63C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2A91A94F8090092D63C /* LaunchScreen.xib */; };
-		2CBFE2B71A94F8090092D63C /* DemoLumberjackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2B61A94F8090092D63C /* DemoLumberjackTests.m */; };
+		2CBFE2CD1A9531C60092D63C /* ZZLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2C71A9531C60092D63C /* ZZLogFormatter.m */; };
+		2CBFE2CE1A9531C60092D63C /* Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2C91A9531C60092D63C /* Logging.m */; };
+		2CBFE2CF1A9531C60092D63C /* LoggingCollections.m4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2CA1A9531C60092D63C /* LoggingCollections.m4 */; };
+		2CBFE2D61A95336E0092D63C /* LoggingDefines.m4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFE2D51A95336E0092D63C /* LoggingDefines.m4 */; };
+		2CBFE2DD1A9536E80092D63C /* ZZNSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2DC1A9536E80092D63C /* ZZNSLogger.m */; };
 		AFB6583490958A37310C7B5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7BF215086845993D286D57 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CBFE2941A94F8090092D63C /* DemoLumberjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLumberjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBFE2941A94F8090092D63C /* AdvancedLoggingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLoggingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBFE2981A94F8090092D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CBFE2991A94F8090092D63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CBFE29B1A94F8090092D63C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,10 +45,19 @@
 		2CBFE2A51A94F8090092D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CBFE2A71A94F8090092D63C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CBFE2AA1A94F8090092D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2CBFE2B01A94F8090092D63C /* DemoLumberjackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLumberjackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CBFE2B51A94F8090092D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CBFE2B61A94F8090092D63C /* DemoLumberjackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoLumberjackTests.m; sourceTree = "<group>"; };
+		2CBFE2B01A94F8090092D63C /* AdvancedLoggingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLoggingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBFE2C01A9501EC0092D63C /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		2CBFE2C61A9531C60092D63C /* ZZLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLogFormatter.h; sourceTree = "<group>"; };
+		2CBFE2C71A9531C60092D63C /* ZZLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLogFormatter.m; sourceTree = "<group>"; };
+		2CBFE2C81A9531C60092D63C /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		2CBFE2C91A9531C60092D63C /* Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logging.m; sourceTree = "<group>"; };
+		2CBFE2CA1A9531C60092D63C /* LoggingCollections.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LoggingCollections.m4; sourceTree = "<group>"; };
+		2CBFE2D31A9532030092D63C /* ConfigDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigDefinitions.h; sourceTree = "<group>"; };
+		2CBFE2D51A95336E0092D63C /* LoggingDefines.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LoggingDefines.m4; sourceTree = "<group>"; };
+		2CBFE2D71A9533970092D63C /* LoggingDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingDefines.h; sourceTree = "<group>"; };
+		2CBFE2D91A95345F0092D63C /* LoggingCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingCollections.h; sourceTree = "<group>"; };
+		2CBFE2DB1A9536E80092D63C /* ZZNSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNSLogger.h; sourceTree = "<group>"; };
+		2CBFE2DC1A9536E80092D63C /* ZZNSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNSLogger.m; sourceTree = "<group>"; };
 		BA7BF215086845993D286D57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C8B414D45354DE930B266D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EE691A658722D4D46D8141C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,8 +102,7 @@
 		2CBFE28B1A94F8090092D63C = {
 			isa = PBXGroup;
 			children = (
-				2CBFE2961A94F8090092D63C /* DemoLumberjack */,
-				2CBFE2B31A94F8090092D63C /* DemoLumberjackTests */,
+				2CBFE2961A94F8090092D63C /* Sources */,
 				2CBFE2951A94F8090092D63C /* Products */,
 				1F41379655947D364E0FB23F /* Pods */,
 				2883C7FB0C33B0FE04A34DE8 /* Frameworks */,
@@ -100,15 +112,17 @@
 		2CBFE2951A94F8090092D63C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CBFE2941A94F8090092D63C /* DemoLumberjack.app */,
-				2CBFE2B01A94F8090092D63C /* DemoLumberjackTests.xctest */,
+				2CBFE2941A94F8090092D63C /* AdvancedLoggingDemo.app */,
+				2CBFE2B01A94F8090092D63C /* AdvancedLoggingDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CBFE2961A94F8090092D63C /* DemoLumberjack */ = {
+		2CBFE2961A94F8090092D63C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2CBFE2D01A9532030092D63C /* Config */,
+				2CBFE2C21A9531C60092D63C /* Logging */,
 				2CBFE2C01A9501EC0092D63C /* Prefix.pch */,
 				2CBFE29B1A94F8090092D63C /* AppDelegate.h */,
 				2CBFE29C1A94F8090092D63C /* AppDelegate.m */,
@@ -121,7 +135,7 @@
 				2CBFE2A91A94F8090092D63C /* LaunchScreen.xib */,
 				2CBFE2971A94F8090092D63C /* Supporting Files */,
 			);
-			path = DemoLumberjack;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		2CBFE2971A94F8090092D63C /* Supporting Files */ = {
@@ -133,31 +147,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2CBFE2B31A94F8090092D63C /* DemoLumberjackTests */ = {
+		2CBFE2C21A9531C60092D63C /* Logging */ = {
 			isa = PBXGroup;
 			children = (
-				2CBFE2B61A94F8090092D63C /* DemoLumberjackTests.m */,
-				2CBFE2B41A94F8090092D63C /* Supporting Files */,
+				2CBFE2DA1A9536CD0092D63C /* ZZNSLogger */,
+				2CBFE2C51A9531C60092D63C /* LogFormatter */,
+				2CBFE2CC1A9531C60092D63C /* Private */,
+				2CBFE2D81A95345F0092D63C /* Generated */,
+				2CBFE2C81A9531C60092D63C /* Logging.h */,
+				2CBFE2C91A9531C60092D63C /* Logging.m */,
+				2CBFE2CA1A9531C60092D63C /* LoggingCollections.m4 */,
 			);
-			path = DemoLumberjackTests;
+			path = Logging;
 			sourceTree = "<group>";
 		};
-		2CBFE2B41A94F8090092D63C /* Supporting Files */ = {
+		2CBFE2C51A9531C60092D63C /* LogFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				2CBFE2B51A94F8090092D63C /* Info.plist */,
+				2CBFE2C61A9531C60092D63C /* ZZLogFormatter.h */,
+				2CBFE2C71A9531C60092D63C /* ZZLogFormatter.m */,
 			);
-			name = "Supporting Files";
+			path = LogFormatter;
+			sourceTree = "<group>";
+		};
+		2CBFE2CC1A9531C60092D63C /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2D71A9533970092D63C /* LoggingDefines.h */,
+				2CBFE2D51A95336E0092D63C /* LoggingDefines.m4 */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		2CBFE2D01A9532030092D63C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2D31A9532030092D63C /* ConfigDefinitions.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2CBFE2D81A95345F0092D63C /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2D91A95345F0092D63C /* LoggingCollections.h */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		2CBFE2DA1A9536CD0092D63C /* ZZNSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFE2DB1A9536E80092D63C /* ZZNSLogger.h */,
+				2CBFE2DC1A9536E80092D63C /* ZZNSLogger.m */,
+			);
+			path = ZZNSLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CBFE2931A94F8090092D63C /* DemoLumberjack */ = {
+		2CBFE2931A94F8090092D63C /* AdvancedLoggingDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CBFE2BA1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjack" */;
+			buildConfigurationList = 2CBFE2BA1A94F8090092D63C /* Build configuration list for PBXNativeTarget "AdvancedLoggingDemo" */;
 			buildPhases = (
 				9C3C8DDDCF26A6A6B798A15A /* Check Pods Manifest.lock */,
+				2CBFE2C11A9531820092D63C /* Generate LoggingCollections.h */,
 				2CBFE2901A94F8090092D63C /* Sources */,
 				2CBFE2911A94F8090092D63C /* Frameworks */,
 				2CBFE2921A94F8090092D63C /* Resources */,
@@ -167,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = DemoLumberjack;
+			name = AdvancedLoggingDemo;
 			productName = DemoLumberjack;
-			productReference = 2CBFE2941A94F8090092D63C /* DemoLumberjack.app */;
+			productReference = 2CBFE2941A94F8090092D63C /* AdvancedLoggingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2CBFE2AF1A94F8090092D63C /* DemoLumberjackTests */ = {
+		2CBFE2AF1A94F8090092D63C /* AdvancedLoggingDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjackTests" */;
+			buildConfigurationList = 2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "AdvancedLoggingDemoTests" */;
 			buildPhases = (
 				2CBFE2AC1A94F8090092D63C /* Sources */,
 				2CBFE2AD1A94F8090092D63C /* Frameworks */,
@@ -185,9 +240,9 @@
 			dependencies = (
 				2CBFE2B21A94F8090092D63C /* PBXTargetDependency */,
 			);
-			name = DemoLumberjackTests;
+			name = AdvancedLoggingDemoTests;
 			productName = DemoLumberjackTests;
-			productReference = 2CBFE2B01A94F8090092D63C /* DemoLumberjackTests.xctest */;
+			productReference = 2CBFE2B01A94F8090092D63C /* AdvancedLoggingDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CBFE28F1A94F8090092D63C /* Build configuration list for PBXProject "DemoLumberjack" */;
+			buildConfigurationList = 2CBFE28F1A94F8090092D63C /* Build configuration list for PBXProject "AdvancedLoggingDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +276,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CBFE2931A94F8090092D63C /* DemoLumberjack */,
-				2CBFE2AF1A94F8090092D63C /* DemoLumberjackTests */,
+				2CBFE2931A94F8090092D63C /* AdvancedLoggingDemo */,
+				2CBFE2AF1A94F8090092D63C /* AdvancedLoggingDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CBFE2A61A94F8090092D63C /* Main.storyboard in Resources */,
+				2CBFE2D61A95336E0092D63C /* LoggingDefines.m4 in Resources */,
 				2CBFE2AB1A94F8090092D63C /* LaunchScreen.xib in Resources */,
+				2CBFE2CF1A9531C60092D63C /* LoggingCollections.m4 in Resources */,
 				2CBFE2A81A94F8090092D63C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +305,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2CBFE2C11A9531820092D63C /* Generate LoggingCollections.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate LoggingCollections.h";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd Sources/Logging\n\nM4_FILE='LoggingCollections.m4'\nM4_FILE_DEP='Private/LoggingDefines.m4'\nH_FILE='Generated/LoggingCollections.h'\n\nif [ \"$M4_FILE\" -nt \"$H_FILE\" ] || [ \"$M4_FILE_DEP\" -nt \"$H_FILE\" ]; then\n    echo 'Good!'\n    m4 \"$M4_FILE\" > \"$H_FILE\"\nfi\n";
+		};
 		9C3C8DDDCF26A6A6B798A15A /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,9 +357,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CBFE29D1A94F8090092D63C /* AppDelegate.m in Sources */,
+				2CBFE2CD1A9531C60092D63C /* ZZLogFormatter.m in Sources */,
 				2CBFE2A01A94F8090092D63C /* MasterViewController.m in Sources */,
 				2CBFE29A1A94F8090092D63C /* main.m in Sources */,
+				2CBFE2DD1A9536E80092D63C /* ZZNSLogger.m in Sources */,
 				2CBFE2A31A94F8090092D63C /* DetailViewController.m in Sources */,
+				2CBFE2CE1A9531C60092D63C /* Logging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBFE2B71A94F8090092D63C /* DemoLumberjackTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +378,7 @@
 /* Begin PBXTargetDependency section */
 		2CBFE2B21A94F8090092D63C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CBFE2931A94F8090092D63C /* DemoLumberjack */;
+			target = 2CBFE2931A94F8090092D63C /* AdvancedLoggingDemo */;
 			targetProxy = 2CBFE2B11A94F8090092D63C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,11 +486,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DemoLumberjack/Prefix.pch;
-				INFOPLIST_FILE = DemoLumberjack/Info.plist;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AdvancedLoggingDemo;
 			};
 			name = Debug;
 		};
@@ -428,11 +501,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DemoLumberjack/Prefix.pch;
-				INFOPLIST_FILE = DemoLumberjack/Info.plist;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AdvancedLoggingDemo;
 			};
 			name = Release;
 		};
@@ -450,7 +523,7 @@
 				);
 				INFOPLIST_FILE = DemoLumberjackTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AdvancedLoggingDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumberjack.app/DemoLumberjack";
 			};
 			name = Debug;
@@ -465,7 +538,7 @@
 				);
 				INFOPLIST_FILE = DemoLumberjackTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AdvancedLoggingDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumberjack.app/DemoLumberjack";
 			};
 			name = Release;
@@ -473,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CBFE28F1A94F8090092D63C /* Build configuration list for PBXProject "DemoLumberjack" */ = {
+		2CBFE28F1A94F8090092D63C /* Build configuration list for PBXProject "AdvancedLoggingDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CBFE2B81A94F8090092D63C /* Debug */,
@@ -482,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CBFE2BA1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjack" */ = {
+		2CBFE2BA1A94F8090092D63C /* Build configuration list for PBXNativeTarget "AdvancedLoggingDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CBFE2BB1A94F8090092D63C /* Debug */,
@@ -491,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "DemoLumberjackTests" */ = {
+		2CBFE2BD1A94F8090092D63C /* Build configuration list for PBXNativeTarget "AdvancedLoggingDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CBFE2BE1A94F8090092D63C /* Debug */,

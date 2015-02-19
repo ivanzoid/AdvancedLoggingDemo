@@ -12,7 +12,8 @@
 #import "DDTTYLogger.h"
 #import "LogglyFormatter.h"
 #import "LogglyLogger.h"
-#import "DDNSLoggerLogger.h"
+#import "ZZNSLogger.h"
+#import "ZZLogFormatter.h"
 
 static NSString * const kLogglyKey = @"d7405077-3555-46e3-887d-815f6f0a156e";
 
@@ -20,8 +21,16 @@ static NSString * const kLogglyKey = @"d7405077-3555-46e3-887d-815f6f0a156e";
 
 - (void) setupLogging
 {
-    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    ZZLogFormatter *formatter = [ZZLogFormatter new];
+    formatter.printDateInTimestamp = NO;
+    formatter.printMachThreadID = NO;
+    formatter.maxLineWidth = 100;
+
+    [[DDASLLogger sharedInstance] setLogFormatter:formatter];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
+
+    [[DDTTYLogger sharedInstance] setLogFormatter:formatter];
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
 
     LogglyLogger *logglyLogger = [LogglyLogger new];
     logglyLogger.logFormatter = [LogglyFormatter new];
@@ -29,14 +38,18 @@ static NSString * const kLogglyKey = @"d7405077-3555-46e3-887d-815f6f0a156e";
     logglyLogger.saveInterval = 15;
     [DDLog addLogger:logglyLogger];
 
-    [DDLog addLogger:[DDNSLoggerLogger sharedInstance]];
+    [DDLog addLogger:[ZZNSLogger sharedInstance]];
 }
 
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self setupLogging];
 
-    DDLogVerbose(@"Hello!");
+    LogCommonInfo(@"Hello!");
+
+    LogApiVerbose(@"got 23KB of json data");
+
+    LogDbErrorf(@"Database corrupted!");
 
     return YES;
 }
